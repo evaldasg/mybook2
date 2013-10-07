@@ -1,4 +1,5 @@
 Mybook2::Application.routes.draw do
+  devise_for :users
   resources :statuses
 
   # The priority is based upon order of creation: first created -> highest priority.
@@ -55,4 +56,5 @@ Mybook2::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  root to: 'statuses#index'
 end
