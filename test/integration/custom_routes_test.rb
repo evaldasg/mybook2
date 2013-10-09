@@ -20,4 +20,10 @@ class CustomRoutesTest < ActionDispatch::IntegrationTest
   	assert_response :success
   end
 
+  test "correct profile page" do
+    get '/evis'
+    assert_response :success
+    
+  end
+
 end

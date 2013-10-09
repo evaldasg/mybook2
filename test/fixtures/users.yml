@@ -3,3 +3,9 @@ evis:
   last_name: "Tikrasis"
   email: "evykas@gamil.com"
   profile_name: "evis"
+
+tedas:
+  first_name: "Tedas"
+  last_name: "Tikras"
+  email: "tedas@gamil.com"
+  profile_name: "tedas"

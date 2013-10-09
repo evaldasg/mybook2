@@ -9,3 +9,8 @@ two:
 
   content: MyText
   user: evis
+
+three:
+
+  content: "Say hey! to TED u!"
+  user: tedas
