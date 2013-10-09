@@ -7,9 +7,9 @@ gem 'rails', '4.0.0'
 gem 'devise'
 gem 'simple_form'
 
-group :development, :test do
-	gem 'sqlite3'
-end
+gem 'sqlite3', group: [:development, :test]
+gem 'pg', group: [:production]
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
 
